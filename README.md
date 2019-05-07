@@ -16,3 +16,5 @@ to fulfill the aim i focused mainly on these things,
 3) recycler views
 4) user experience should be totally regarding "Game of Thrones"
 5) go to other applications using intents
+
+the application was developed within four days.
