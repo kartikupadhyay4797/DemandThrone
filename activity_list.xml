@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".List"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:text="rightful  heirs"
+            android:textSize="21sp"
+            android:layout_margin="16dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:onClick="helpMe"
+            android:background="@drawable/help_sign" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reView"
+    android:background="@drawable/throne"
+    >
+
+</android.support.v7.widget.RecyclerView>
+</LinearLayout>

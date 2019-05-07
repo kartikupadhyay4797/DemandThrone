@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Demand Throne</string>
+    <string-array name="mystrings" >
+        <item>targaryen</item>
+        <item>tyrell</item>
+        <item>arryn</item>
+        <item>baratheon</item>
+        <item>greyjoy</item>
+        <item>lannister</item>
+        <item>martell</item>
+        <item>stark</item>
+        <item>tully</item>
+    </string-array>
+</resources>
