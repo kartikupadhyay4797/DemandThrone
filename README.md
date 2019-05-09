@@ -18,3 +18,5 @@ to fulfill the aim i focused mainly on these things,
 5) go to other applications using intents
 
 the application was developed within four days.
+
+Apk file is uploaded in the code section, enjoy the app.
